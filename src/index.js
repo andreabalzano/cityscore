@@ -1,3 +1,5 @@
+import "./styles/style.css";
+
 const elvenShieldRecipe = {
     ciao: 3,
     ddd: 6,
