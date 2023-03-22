@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Life Quality</title>
 </head>
 <body>
-    <h1>ciao</h1>
+    <h1>Life quality finder</h1>
+    <section class="container">
+        <form class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Insert a city">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </form>
+        <div class="not-found">
+            <p>Ooops! No result found...</p>
+        </div>
+        <div class="city-details">
+            <div class="total-score">
+                <p>Total score:</p>
+                <p id="score"></p>
+            </div>
+            <div class="container-valori">
+                <div class="housing">
+                    <div class="text">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Housing:</p>
+                        <p id="housing-value"></p>
+                    </div>
+                </div>
+                <div class="costo-della-vita">
+                    <div class="text">
+                        <i class="fa-solid fa-money-check-dollar"></i>    
+                        <p>Cost:</p>
+                        <p id="costoflife-value"></p>
+                    </div>
+                </div>
+                <div class="startup">
+                    <div class="text">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <p>Startup:</p>
+                        <p id="startup-value"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <p id="description-title">Description:</p>
+                <p id="description-value"></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/dc9ce91814.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 </html>
