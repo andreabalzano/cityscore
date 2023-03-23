@@ -6,7 +6,6 @@ Una volta inviato il form tramite l'apposito pulsante, compariranno a schermo un
 <h2>Linguaggi e risorse Utilizzati:</h2>
 <ul>
  <li><a href="https://html.spec.whatwg.org/">HTML</a></li>
- <li><a href="https://sass-lang.com/">SASS</a></li>
  <li><a href="https://www.w3.org/TR/CSS/">CSS</a></li>
  <li><a href="developer.mozilla.org/it/docs/Web/JavaScript">JavaScript</a></li>
  <li><a href="https://github.com/axios/axios">Axios</a></li>
